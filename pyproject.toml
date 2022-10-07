@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "libgude"
+version = "0.0.1"
+authors = [
+	{ name="David Buchanan", email="d@vidbuchanan.co.uk" },
+]
+description = "Serialise and Deserialise data formats from the Gudetama Tap mobile app"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Intended Audience :: Developers",
+	"Natural Language :: English",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/OpenGude/libgude"
+"Bug Tracker" = "https://github.com/OpenGude/libgude/issues"
